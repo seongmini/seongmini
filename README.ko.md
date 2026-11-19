@@ -27,6 +27,17 @@
 [발표 영상](https://www.youtube.com/watch?v=WFqmJOUc1qU&t=95s) · [프론트엔드 코드](https://github.com/HAMA-team/HAMA-frontend-v2) · 2025 캡스톤디자인 발표회 은상
 
 <details>
+<summary><b>팀의 에이전트 아키텍처 보기</b></summary>
+
+캡스톤 최종 포스터에 실린 팀 도식입니다. LangGraph의 Supervisor는 요청을 정성·정량 분석으로 보내거나 포트폴리오·위험 분석·거래 도구를 호출합니다. 파란색은 사용자가 개입하는 지점입니다. 저는 서버의 진행 상태 이벤트와 승인 API를 사용자 화면에 연결했습니다.
+
+<a href="./assets/hama-agent-architecture.jpeg"><img src="assets/hama-agent-architecture.jpeg" width="860" alt="캡스톤 포스터에 실린 HAMA 팀 아키텍처. Supervisor가 요청을 도구 호출, 정성 분석, 정량 분석으로 나누고, 사용자가 개입하는 지점을 파란색으로 표시했습니다."></a>
+
+[에이전트 구성 설명](https://github.com/HAMA-team/HAMA-frontend-v2/blob/main/docs/how_it_works_agent_architecture.md)
+
+</details>
+
+<details>
 <summary><b>분석 계획과 주문 검토 화면 열기</b></summary>
 
 분석 계획에서는 조사 범위와 방법을 고르고, 주문 화면에서는 수량과 가격을 수정할 수 있습니다.

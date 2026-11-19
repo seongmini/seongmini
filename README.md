@@ -27,6 +27,17 @@ In a two-person capstone, I designed and implemented **how users review the AI's
 [Presentation video](https://www.youtube.com/watch?v=WFqmJOUc1qU&t=95s) · [Frontend code](https://github.com/HAMA-team/HAMA-frontend-v2) · Silver Award, 2025 Capstone Design Showcase
 
 <details>
+<summary><b>See the team's agent architecture</b></summary>
+
+From our final capstone poster. The LangGraph supervisor routes requests to research and quantitative subgraphs or calls portfolio, risk, and trading tools. Blue marks where the user can intervene. I connected the client to the server's progress events and approval API.
+
+<a href="./assets/hama-agent-architecture.jpeg"><img src="assets/hama-agent-architecture.jpeg" width="860" alt="HAMA team architecture from the capstone poster. A supervisor routes user requests to tools, research, or quantitative analysis. Human intervention points are highlighted in blue."></a>
+
+[Architecture notes](https://github.com/HAMA-team/HAMA-frontend-v2/blob/main/docs/how_it_works_agent_architecture.md)
+
+</details>
+
+<details>
 <summary><b>See the research plan and order review screens</b></summary>
 
 Users can choose the scope and method of the research, then change the quantity and price when they review a proposed order.
