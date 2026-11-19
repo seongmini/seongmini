@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="206" height="29" viewBox="0 0 206 29" role="img">
-  <title>FastAPI, FFmpeg</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="29" viewBox="0 0 228 29" role="img">
+  <title>Django, SQL, FastAPI</title>
   <style>text { font: 600 13px system-ui, sans-serif; fill: #f5f7ff; }</style>
-  <rect x="1" y="1" width="98" height="27" rx="7" fill="#183737" stroke="#376460"/>
-  <circle cx="14" cy="14.5" r="3" fill="#72dbcd"/>
-  <text x="25" y="19">FastAPI</text>
-  <rect x="106" y="1" width="98" height="27" rx="7" fill="#183737" stroke="#376460"/>
-  <circle cx="119" cy="14.5" r="3" fill="#72dbcd"/>
-  <text x="130" y="19">FFmpeg</text>
+  <rect x="1" y="1" width="78" height="27" rx="7" fill="#193737" stroke="#376460"/>
+  <circle cx="12" cy="14.5" r="2.5" fill="#78ddcf"/>
+  <text x="21" y="19">Django</text>
+  <rect x="84" y="1" width="54" height="27" rx="7" fill="#193737" stroke="#376460"/>
+  <circle cx="95" cy="14.5" r="2.5" fill="#78ddcf"/>
+  <text x="104" y="19">SQL</text>
+  <rect x="143" y="1" width="83" height="27" rx="7" fill="#193737" stroke="#376460"/>
+  <circle cx="154" cy="14.5" r="2.5" fill="#78ddcf"/>
+  <text x="163" y="19">FastAPI</text>
 </svg>

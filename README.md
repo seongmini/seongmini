@@ -2,25 +2,27 @@
 
 **English** · [한국어](./README.ko.md)
 
+I look for where people get stuck, turn what I learn into requirements a system can follow, and test what we build against real scenarios.
+
 ## Tech Stack
 
-**AI & Data**  
-<img src="assets/stack-ai-data.svg" alt="Python, LangGraph, Chroma">  
-Used for comparing models on image-based questions and building retrieval that links answers to sources.
+**Languages**  
+<img src="assets/stack-languages.svg" alt="Python, C, Java, TypeScript, Kotlin">
 
-**APIs & Processing Pipelines**  
-<img src="assets/stack-api-pipelines.svg" alt="FastAPI, FFmpeg">  
-Connected a retrieval service to an API and improved baseball video preprocessing and generation for a research prototype.
+**Services & Data**  
+<img src="assets/stack-api-pipelines.svg" alt="Django, SQL, FastAPI">
 
-**Web & Desktop Apps**  
-<img src="assets/stack-web-desktop.svg" alt="TypeScript, Next.js, React, Electron">  
-Integrated HAMA's review workflow and shipped a notes app that restores multiple windows.
+**AI & Media**  
+<img src="assets/stack-ai-data.svg" alt="LangGraph, Chroma, FFmpeg">
+
+**Apps & Integration**  
+<img src="assets/stack-web-desktop.svg" alt="Next.js, React, Electron, SSE, WebSocket">
 
 ## Projects
 
-### HAMA · What can you change before placing an order?
+### HAMA · Where should AI pause for human review?
 
-For a two-person capstone, I built the frontend that lets users **follow the AI's analysis and approve, revise, or reject its proposals**. In the final demo, users could review the research plan before analysis began and review a simulated order before it was placed. In Next.js, I used server-sent events to show progress and passed the user's revised order parameters to the backend.
+In a two-person capstone, I designed and implemented **how users review the AI's research plan and decide whether to place a simulated order**. We explored five types of review and focused the final demo on two points where the user could make a specific decision. I worked with my teammate on the API contract for progress, approvals, edits, and rejections, then checked the full sequence from request to result against actual server responses.
 
 [Presentation video](https://www.youtube.com/watch?v=WFqmJOUc1qU&t=95s) · [Frontend code](https://github.com/HAMA-team/HAMA-frontend-v2) · Silver Award, 2025 Capstone Design Showcase
 
@@ -33,16 +35,31 @@ Users can choose the scope and method of the research, then change the quantity 
 
 </details>
 
-### IXLAB · Getting a baseball highlight tool ready for a user study
+### PromptBall · Getting a baseball highlight tool ready for a user study
 
-**PromptBall** is a research prototype that turns written requests for baseball plays into highlight videos. I improved the React interface from game selection through playback. While a video was being generated, the interface showed how many clips were ready using updates over WebSockets. After generation, users could click the timeline to jump to a clip. I also helped run the user study, improved logging to connect requests with generated results, and compiled viewing times for each participant.
+**Undergraduate research intern at IXLAB**
+
+PromptBall turns written requests for baseball plays into highlight videos. I automated the **game data preparation pipeline** and improved the experience from selecting a game through replaying a clip. I added WebSocket progress updates and a timeline that jumps to individual clips. For the user study, I improved logging so researchers could trace each request to its results, and compiled viewing times for each participant.
 
 <details>
 <summary><b>Game data preparation, feedback on failed requests, and video processing</b></summary>
 
-- I automated splitting new game footage by inning, transcribing the audio, and generating summaries in one run. I also handled inning order in extra-inning games.
+- The pipeline split game footage by inning, transcribed the audio, and generated summaries in one run, including games with extra innings.
 - I added separate messages for requests involving a player outside the lineup and plays that did not happen in the selected game, so users knew how to revise their requests.
 - I identified video re-encoding as a bottleneck and switched to FFmpeg stream copying. In internal lab tests, generation time per video went **from 3–10 minutes to 10–30 seconds**.
+
+</details>
+
+<details>
+<summary><b>See the original PromptBall screens</b></summary>
+
+*Team and game selection*
+
+<img src="assets/promptball-game-selection.jpeg" width="720" alt="PromptBall team and game selection with Korean baseball teams and a game-date picker">
+
+*Preparing to generate a highlight*
+
+<img src="assets/promptball-generating-highlights.jpeg" width="720" alt="PromptBall with a highlight request field, the game box score, and a message that highlight generation is being prepared">
 
 </details>
 
@@ -68,3 +85,12 @@ Say photo 3 was taken in the same neighborhood as photo 2, but two days later. T
 [Time-based view](https://github.com/seongmini/triptrace/blob/master/photosforreadme/triptrace-time-based-trips.png) · [Distance-based view](https://github.com/seongmini/triptrace/blob/master/photosforreadme/triptrace-distance-based-trips.png)
 
 </details>
+
+## More Work
+
+- **Campus Go** — In a three-person design project, I traced signup, approval, and cancellation through requirements and the data model. That exposed when pending applicants could be counted as confirmed attendees. Our report covered 34 functional requirements.
+- **Coding instruction** — I teach C, Python, and data structures. I also designed criteria for sorting over 1,000 practice problems, reviewed the AI-assisted first pass for gaps in prerequisite order, and used the selection tool in lessons.
+- **MoneyHub** — I integrated receipt OCR into a Kotlin Android app so users could review and correct the suggested transaction fields. [Code](https://github.com/seongmini/moneyhub)
+- **SOS!** — I worked on quiz grading, saved attempts, and wrong-answer history in a Django learning app. [Code](https://github.com/gom31/WEBSOS)
+
+In a source-grounded AI prototype, I defined when to retrieve evidence and when to let the user freely develop a story. The stack included FastAPI, LangGraph, and Chroma. I used AI coding tools for implementation and tested the behavior myself.

@@ -1,16 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="384" height="29" viewBox="0 0 384 29" role="img">
-  <title>TypeScript, Next.js, React, Electron</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="406" height="29" viewBox="0 0 406 29" role="img">
+  <title>Next.js, React, Electron, SSE, WebSocket</title>
   <style>text { font: 600 13px system-ui, sans-serif; fill: #f5f7ff; }</style>
-  <rect x="1" y="1" width="106" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
-  <circle cx="14" cy="14.5" r="3" fill="#ffd08e"/>
-  <text x="25" y="19">TypeScript</text>
-  <rect x="114" y="1" width="86" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
-  <circle cx="127" cy="14.5" r="3" fill="#ffd08e"/>
-  <text x="138" y="19">Next.js</text>
-  <rect x="207" y="1" width="73" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
-  <circle cx="220" cy="14.5" r="3" fill="#ffd08e"/>
-  <text x="231" y="19">React</text>
-  <rect x="287" y="1" width="95" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
-  <circle cx="300" cy="14.5" r="3" fill="#ffd08e"/>
-  <text x="311" y="19">Electron</text>
+  <rect x="1" y="1" width="75" height="27" rx="7" fill="#382c28" stroke="#755842"/>
+  <circle cx="12" cy="14.5" r="2.5" fill="#ffd19a"/>
+  <text x="21" y="19">Next.js</text>
+  <rect x="81" y="1" width="69" height="27" rx="7" fill="#382c28" stroke="#755842"/>
+  <circle cx="92" cy="14.5" r="2.5" fill="#ffd19a"/>
+  <text x="101" y="19">React</text>
+  <rect x="155" y="1" width="85" height="27" rx="7" fill="#382c28" stroke="#755842"/>
+  <circle cx="166" cy="14.5" r="2.5" fill="#ffd19a"/>
+  <text x="175" y="19">Electron</text>
+  <rect x="245" y="1" width="51" height="27" rx="7" fill="#382c28" stroke="#755842"/>
+  <circle cx="256" cy="14.5" r="2.5" fill="#ffd19a"/>
+  <text x="265" y="19">SSE</text>
+  <rect x="301" y="1" width="103" height="27" rx="7" fill="#382c28" stroke="#755842"/>
+  <circle cx="312" cy="14.5" r="2.5" fill="#ffd19a"/>
+  <text x="321" y="19">WebSocket</text>
 </svg>

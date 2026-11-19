@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="367" height="29" viewBox="0 0 367 29" role="img">
+  <title>Python, C, Java, TypeScript, Kotlin</title>
+  <style>text { font: 600 13px system-ui, sans-serif; fill: #f5f7ff; }</style>
+  <rect x="1" y="1" width="75" height="27" rx="7" fill="#222d4b" stroke="#475b86"/>
+  <circle cx="12" cy="14.5" r="2.5" fill="#abbbff"/>
+  <text x="21" y="19">Python</text>
+  <rect x="81" y="1" width="38" height="27" rx="7" fill="#222d4b" stroke="#475b86"/>
+  <circle cx="92" cy="14.5" r="2.5" fill="#abbbff"/>
+  <text x="101" y="19">C</text>
+  <rect x="124" y="1" width="59" height="27" rx="7" fill="#222d4b" stroke="#475b86"/>
+  <circle cx="135" cy="14.5" r="2.5" fill="#abbbff"/>
+  <text x="144" y="19">Java</text>
+  <rect x="188" y="1" width="100" height="27" rx="7" fill="#222d4b" stroke="#475b86"/>
+  <circle cx="199" cy="14.5" r="2.5" fill="#abbbff"/>
+  <text x="208" y="19">TypeScript</text>
+  <rect x="293" y="1" width="72" height="27" rx="7" fill="#222d4b" stroke="#475b86"/>
+  <circle cx="304" cy="14.5" r="2.5" fill="#abbbff"/>
+  <text x="313" y="19">Kotlin</text>
+</svg>
