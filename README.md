@@ -2,10 +2,6 @@
 
 **한국어** · [English](./README.en.md)
 
-**보이지 않던 과정을 화면에 풀어냅니다.**
-
-AI가 무엇을 조사하는지, 흩어진 사진이 어느 여행에 속하는지, 어제 열어둔 메모가 어디 있었는지. 소프트웨어를 만들 때 사용자가 다음 행동을 결정하는 데 필요한 정보부터 살펴봅니다.
-
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/project-still.png">
   <img src="assets/project-motion.svg" width="960" alt="AI 결정의 검토, 흩어진 사진의 연결, 메모 창의 복원을 그린 세 가지 장면">

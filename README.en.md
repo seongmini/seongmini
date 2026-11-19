@@ -2,10 +2,6 @@
 
 [한국어](./README.md) · **English**
 
-**I make hidden processes visible.**
-
-What is the AI looking into? Which trip do these photos belong to? Where were the notes I had open yesterday? I build interfaces around the information people need to decide what to do next.
-
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/project-still.png">
   <img src="assets/project-motion.svg" width="960" alt="Three scenes showing an AI decision review, a route connecting travel photos, and a restored note window">
