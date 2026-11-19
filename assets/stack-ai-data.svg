@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="309" height="29" viewBox="0 0 309 29" role="img">
+  <title>Python, LangGraph, Chroma</title>
+  <style>text { font: 600 13px system-ui, sans-serif; fill: #f5f7ff; }</style>
+  <rect x="1" y="1" width="86" height="27" rx="7" fill="#222e4d" stroke="#4a608b"/>
+  <circle cx="14" cy="14.5" r="3" fill="#9fbaff"/>
+  <text x="25" y="19">Python</text>
+  <rect x="94" y="1" width="111" height="27" rx="7" fill="#222e4d" stroke="#4a608b"/>
+  <circle cx="107" cy="14.5" r="3" fill="#9fbaff"/>
+  <text x="118" y="19">LangGraph</text>
+  <rect x="212" y="1" width="95" height="27" rx="7" fill="#222e4d" stroke="#4a608b"/>
+  <circle cx="225" cy="14.5" r="3" fill="#9fbaff"/>
+  <text x="236" y="19">Chroma</text>
+</svg>

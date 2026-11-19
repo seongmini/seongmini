@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="29" viewBox="0 0 384 29" role="img">
+  <title>TypeScript, Next.js, React, Electron</title>
+  <style>text { font: 600 13px system-ui, sans-serif; fill: #f5f7ff; }</style>
+  <rect x="1" y="1" width="106" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
+  <circle cx="14" cy="14.5" r="3" fill="#ffd08e"/>
+  <text x="25" y="19">TypeScript</text>
+  <rect x="114" y="1" width="86" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
+  <circle cx="127" cy="14.5" r="3" fill="#ffd08e"/>
+  <text x="138" y="19">Next.js</text>
+  <rect x="207" y="1" width="73" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
+  <circle cx="220" cy="14.5" r="3" fill="#ffd08e"/>
+  <text x="231" y="19">React</text>
+  <rect x="287" y="1" width="95" height="27" rx="7" fill="#3a2c26" stroke="#755842"/>
+  <circle cx="300" cy="14.5" r="3" fill="#ffd08e"/>
+  <text x="311" y="19">Electron</text>
+</svg>
