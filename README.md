@@ -2,7 +2,7 @@
 
 **English** | [한국어](./README.ko.md)
 
-I look for where people get stuck, turn what I learn into requirements a system can follow, and test what we build against real scenarios.
+I teach programming and build software. I like seeing students work through a problem on their own, and I want the tools I build to help people get started on things they've wanted to try.
 
 ## Tech Stack
 
@@ -101,5 +101,4 @@ Say photo 3 was taken in the same neighborhood as photo 2, but two days later. T
 - **Coding instruction** — I teach C, Python, and data structures. I also designed criteria for sorting over 1,000 practice problems, reviewed the AI-assisted first pass for gaps in prerequisite order, and used the selection tool in lessons.
 - **MoneyHub** — I integrated receipt OCR into a Kotlin Android app so users could review and correct the suggested transaction fields. [Code](https://github.com/seongmini/moneyhub)
 - **SOS!** — I worked on quiz grading, saved attempts, and wrong-answer history in a Django learning app. [Code](https://github.com/gom31/WEBSOS)
-
-In a source-grounded AI prototype, I defined when to retrieve evidence and when to let the user freely develop a story. The stack included FastAPI, LangGraph, and Chroma. I used AI coding tools for implementation and tested the behavior myself.
+- **Folklore research for writers** — I made a prototype that helps writers look up what folklore says about a creature, see the sources, and draft a new scene with it. While testing, I found that it rejected writing requests when the writer's new setting did not appear in the sources. I specified which details to verify against the sources and which the writer could invent, then tested the changes made with an AI coding tool.
