@@ -1,6 +1,6 @@
 # Seongmin Hwang
 
-**English** · [한국어](./README.ko.md)
+**English** | [한국어](./README.ko.md)
 
 I look for where people get stuck, turn what I learn into requirements a system can follow, and test what we build against real scenarios.
 
@@ -20,11 +20,11 @@ I look for where people get stuck, turn what I learn into requirements a system 
 
 ## Projects
 
-### HAMA · Where should AI pause for human review?
+### HAMA
 
-In a two-person capstone, I designed and implemented **how users review the AI's research plan and decide whether to place a simulated order**. We explored five types of review and focused the final demo on two points where the user could make a specific decision. I worked with my teammate on the API contract for progress, approvals, edits, and rejections, then checked the full sequence from request to result against actual server responses.
+HAMA uses AI agents to research stocks and prepare simulated orders. In our two-person capstone, I designed and implemented **how users review a research plan and decide whether to place an order**. We explored five types of review and focused the final demo on two points where the user could make a specific decision. I worked with my teammate on the API contract for progress, approvals, edits, and rejections, then checked the full sequence from request to result against actual server responses. The project received a silver award at the 2025 Capstone Design Showcase.
 
-[Presentation video](https://www.youtube.com/watch?v=WFqmJOUc1qU&t=95s) · [Frontend code](https://github.com/HAMA-team/HAMA-frontend-v2) · Silver Award, 2025 Capstone Design Showcase
+[Presentation video](https://www.youtube.com/watch?v=WFqmJOUc1qU&t=95s) | [Frontend code](https://github.com/HAMA-team/HAMA-frontend-v2)
 
 <details>
 <summary><b>See the team's agent architecture</b></summary>
@@ -46,7 +46,7 @@ Users can choose the scope and method of the research, then change the quantity 
 
 </details>
 
-### PromptBall · Getting a baseball highlight tool ready for a user study
+### PromptBall
 
 **Undergraduate research intern at IXLAB**
 
@@ -74,17 +74,17 @@ PromptBall turns written requests for baseball plays into highlight videos. I au
 
 </details>
 
-### Sticky Markdown Note · Pick up where you left off
+### Sticky Markdown Note
 
 I built this Electron app because I wanted to keep several notes open beside my work. It **saves notes as `.md` files and restores each open window's position and size** when you reopen the app. I also published a Windows installer.
 
-[Source code](https://github.com/seongmini/sticky-markdown-note) · [Installer](https://github.com/seongmini/sticky-markdown-note/releases/latest)
+[Source code](https://github.com/seongmini/sticky-markdown-note) | [Installer](https://github.com/seongmini/sticky-markdown-note/releases/latest)
 
-### TripTrace · The same photos tell different stories by time and distance
+### TripTrace
 
-TripTrace groups photos into trips using their timestamps and GPS coordinates, then displays them on a map. I implemented the trip segmentation by **treating each photo as a vertex and weighting the edges by elapsed time or distance**. The app builds a minimum spanning tree with Prim's algorithm and cuts edges that exceed the selected threshold.
+I implemented an algorithm that groups photos into trips using their timestamps or GPS coordinates. **Each photo is a vertex, and the edge weight is the time gap or distance between photos.** The algorithm builds a minimum spanning tree with Prim's algorithm and cuts edges that exceed the selected threshold.
 
-[Screenshots and design](https://github.com/seongmini/triptrace#readme) · [Trip segmentation code](https://github.com/seongmini/triptrace/blob/master/test/trips.mjs)
+[Trip segmentation code](https://github.com/seongmini/triptrace/blob/master/test/trips.mjs)
 
 <details>
 <summary><b>Compare the time and distance rules</b></summary>
@@ -92,8 +92,6 @@ TripTrace groups photos into trips using their timestamps and GPS coordinates, t
 Say photo 3 was taken in the same neighborhood as photo 2, but two days later. The **24-hour** rule can split them into separate trips, while the **50 km** rule can group them together.
 
 <img src="assets/triptrace-split.en.svg" width="800" alt="Five sample photos. Grouping by time puts photos 1–2 and 3–5 in separate trips. Grouping by location puts photos 1–3 and 4–5 in separate trips.">
-
-[Time-based view](https://github.com/seongmini/triptrace/blob/master/photosforreadme/triptrace-time-based-trips.png) · [Distance-based view](https://github.com/seongmini/triptrace/blob/master/photosforreadme/triptrace-distance-based-trips.png)
 
 </details>
 
