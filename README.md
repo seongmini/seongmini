@@ -48,7 +48,7 @@ Users can choose the scope and method of the research, then change the quantity 
 
 ### PromptBall
 
-**Undergraduate research intern at IXLAB**
+**Undergraduate research intern at [IXLAB](https://ixlab.seoultech.ac.kr/people/)**
 
 PromptBall turns written requests for baseball plays into highlight videos. I automated the **game data preparation pipeline** and improved the experience from selecting a game through replaying a clip. I added WebSocket progress updates and a timeline that jumps to individual clips. For the user study, I improved logging so researchers could trace each request to its results, and compiled viewing times for each participant.
 
