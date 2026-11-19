@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 238" role="img" aria-labelledby="title description">
+  <title id="title">Review, trace, restore</title>
+  <desc id="description">Three animated project sketches: reviewing an AI decision, connecting travel photos, and restoring a note window.</desc>
+  <defs>
+    <linearGradient id="ink" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#151b36"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#58678f" opacity=".35"/>
+    </pattern>
+    <style>
+      .caption { font: 600 18px ui-monospace, Consolas, monospace; fill: #dfe6ff; letter-spacing: 2px; }
+      .muted { fill: none; stroke: #3c4867; stroke-width: 2; }
+      .streak { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .write { stroke-dasharray: 1; stroke-dashoffset: 0; animation: draw 730ms cubic-bezier(.2,.7,.4,1) both; }
+      .reveal { animation: show 500ms ease-out both; transform-box: fill-box; }
+      .check { animation-delay: 220ms; }
+      .route { animation-delay: 620ms; }
+      .pins { animation-delay: 930ms; }
+      .note { animation-delay: 1150ms; }
+      .lines { animation-delay: 1450ms; }
+      @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+      @keyframes show { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+      @media (prefers-reduced-motion: reduce) { .write, .reveal { animation: none; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="236" rx="24" fill="url(#ink)" stroke="#303a60" stroke-width="2"/>
+  <rect x="20" y="20" width="920" height="198" rx="15" fill="url(#grid)"/>
+  <path d="M320 29v180M640 29v180" stroke="#303a60"/>
+
+  <g>
+    <rect x="58" y="44" width="204" height="114" rx="10" fill="#131d35" stroke="#596a9a" stroke-width="2"/>
+    <path d="M58 70h204" stroke="#596a9a" stroke-width="2"/>
+    <circle cx="76" cy="57" r="3" fill="#94aeff"/>
+    <circle cx="87" cy="57" r="3" fill="#53628a"/>
+    <circle cx="98" cy="57" r="3" fill="#53628a"/>
+    <path d="M79 93h97m-97 15h78m-78 15h63" class="muted" stroke-linecap="round"/>
+    <rect x="199" y="100" width="38" height="34" rx="7" fill="#263762" stroke="#94aeff"/>
+    <path d="m208 117 7 6 13-14" pathLength="1" class="streak write check" stroke="#becdff"/>
+    <text x="160" y="198" class="caption" text-anchor="middle">REVIEW</text>
+  </g>
+
+  <g>
+    <path d="M373 125 427 67l77 56 75-45M427 67l73-22 4 78 45 28m-45-28-71 25-60-23" class="muted" stroke-dasharray="5 6"/>
+    <path d="M373 125 427 67l77 56 75-45" pathLength="1" class="streak write route" stroke="#68e0d0" stroke-width="4"/>
+    <g class="reveal pins">
+      <circle cx="373" cy="125" r="7" fill="#68e0d0"/>
+      <circle cx="427" cy="67" r="8" fill="#68e0d0"/>
+      <circle cx="504" cy="123" r="8" fill="#68e0d0"/>
+      <circle cx="579" cy="78" r="8" fill="#68e0d0"/>
+      <circle cx="579" cy="78" r="16" fill="none" stroke="#68e0d0" opacity=".45"/>
+    </g>
+    <circle cx="500" cy="45" r="4" fill="#647296"/>
+    <circle cx="549" cy="151" r="4" fill="#647296"/>
+    <circle cx="433" cy="148" r="4" fill="#647296"/>
+    <text x="480" y="198" class="caption" text-anchor="middle">TRACE</text>
+  </g>
+
+  <g>
+    <rect x="697" y="55" width="150" height="100" rx="9" fill="#1c2238" stroke="#5e587a" stroke-width="2"/>
+    <path d="M697 79h150" stroke="#5e587a" stroke-width="2"/>
+    <path d="M713 102h58m-58 13h43m-43 13h35" class="muted" stroke-linecap="round"/>
+    <g class="reveal note">
+      <rect x="743" y="42" width="158" height="103" rx="9" fill="#352c29" stroke="#efb779" stroke-width="2"/>
+      <path d="M743 66h158" stroke="#a47c53" stroke-width="2"/>
+      <circle cx="759" cy="54" r="3" fill="#ffc988"/>
+      <path d="M759 88h104m-104 15h81m-81 15h63" stroke="#b18c69" stroke-width="3" stroke-linecap="round"/>
+      <path d="M759 88h104" pathLength="1" class="streak write lines" stroke="#ffd096"/>
+    </g>
+    <text x="800" y="198" class="caption" text-anchor="middle">RESTORE</text>
+  </g>
+</svg>
